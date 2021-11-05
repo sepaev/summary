@@ -1,0 +1,40 @@
+.aside {
+  background: #42597a;
+  width: 370px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  &__photo {
+    width: 370px;
+  }
+  &__container {
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-right: 40px;
+    // background: #1e2939;
+    box-sizing: border-box;
+  }
+  &__title {
+    line-height: 40px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 20px;
+  }
+  &__item {
+    font-size: 20px;
+    line-height: 40px;
+  }
+  &__link {
+    color: #c7c8ca;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  &__link-title {
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 10px;
+  }
+  &__text {
+    color: #ffffff;
+  }
+}

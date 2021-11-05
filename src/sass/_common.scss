@@ -1,0 +1,29 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+body {
+  background-color: #f5f7fa;
+  padding: 20px;
+  font-family: Montserrat;
+  width: 1280px;
+  height: auto;
+}
+
+.summary {
+  &__wrapper {
+    background-color: #ffffff;
+    display: flex;
+    max-width: 1200px;
+    height: auto;
+    box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+    background-color: #ffffff;
+    margin: 0 auto;
+  }
+}
