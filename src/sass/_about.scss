@@ -1,8 +1,10 @@
+$light-grey-color: #a8a8a8;
+$grey-color: #595959;
+$black-color: #000;
+$green-color: #219261;
+
 .about {
-  padding-left: 90px;
-  padding-right: 90px;
-  padding-top: 110px;
-  padding-bottom: 110px;
+  padding: 90px 70px;
 
   &__container {
     margin-bottom: 65px;
@@ -13,6 +15,7 @@
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 23px;
+    font-size: 20px;
   }
 
   &__name {
@@ -26,7 +29,6 @@
     font-weight: 400;
     line-height: 24px;
     margin-top: 24px;
-    max-width: 413px;
   }
 
   &__title {
@@ -37,17 +39,16 @@
   }
 
   &__divider {
-    color: #000000;
+    color: $black-color;
   }
 
   &__period {
-    color: #a8a8a8;
+    color: $light-grey-color;
     font-size: 12px;
     font-weight: 400;
     line-height: 24px;
   }
 }
-
 .projects {
   width: 100%;
   &__item {
@@ -55,19 +56,30 @@
     display: flex;
     font-weight: 700;
     margin-left: 17px;
+    width: 100%;
+    margin-bottom: 5px;
   }
   &__link {
-    color: #595959;
+    color: $grey-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+    text-decoration: none;
   }
 
   &__tech {
-    color: #595959;
+    color: $grey-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
+  }
+  &__text {
+    font-size: 25px;
+  }
+  &__languages {
+    display: flex;
+    align-items: center;
+    color: $grey-color;
   }
 }
 
@@ -81,7 +93,7 @@
   }
 
   &__company {
-    color: #ff6b08;
+    color: $green-color;
   }
 
   &__duties {
@@ -89,7 +101,7 @@
     margin-bottom: 30px;
   }
   &__duties-item {
-    color: #595959;
+    color: $grey-color;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
@@ -101,14 +113,14 @@
 .education {
   margin-bottom: 30px;
   &__university {
-    color: #ff6b08;
+    color: $green-color;
     font-size: 16px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 1px;
   }
   &__specialization {
-    color: #000000;
+    color: $black-color;
     font-size: 14px;
     font-weight: 700;
     line-height: 24px;
