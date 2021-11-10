@@ -1,17 +1,22 @@
-import { getLang, getRefs, getTranslations, writeInnerHTML } from './functions';
+import { getLang, getRefs, rewriteInnerHTML } from './functions';
+import {
+  softSkillsTranslations,
+  myContactsTranslations,
+  aboutMeTranslations,
+} from './translations';
 import softSkillsHbs from '../templates/softSkills.hbs';
-import contactsHbs from '../templates/contacts.hbs';
+import myContactsHbs from '../templates/myContacts.hbs';
+import aboutMeHbs from '../templates/aboutMe.hbs';
 
 function onLoad() {
   const currentLang = getLang();
   const refs = getRefs();
-
   //contacts
-  const contactsTranslations = getTranslations(currentLang, 'contacts');
-  writeInnerHTML(refs.contacts, contactsHbs(contactsTranslations));
+  rewriteInnerHTML(refs.myContacts, myContactsHbs(myContactsTranslations[currentLang]));
   //soft skills
-  const softSkillsTranslations = getTranslations(currentLang, 'softSkills');
-  writeInnerHTML(refs.softSkills, softSkillsHbs(softSkillsTranslations));
+  rewriteInnerHTML(refs.softSkills, softSkillsHbs(softSkillsTranslations[currentLang]));
+  //about me
+  rewriteInnerHTML(refs.aboutMe, aboutMeHbs(aboutMeTranslations[currentLang]));
 }
 
 export default onLoad;
