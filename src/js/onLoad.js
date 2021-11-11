@@ -16,7 +16,10 @@ import myEducationHbs from '../templates/myEducation.hbs';
 function onLoad() {
   const currentLang = getLang();
   const refs = getRefs();
+  //index.html
   document.title = titleTranslations[currentLang];
+  document.documentElement.lang = currentLang;
+  //print button
   refs.print.href = '/downloads/summary' + currentLang.toUpperCase() + '.pdf';
   //my contacts
   rewriteInnerHTML(refs.myContacts, myContactsHbs(myContactsTranslations[currentLang]));
