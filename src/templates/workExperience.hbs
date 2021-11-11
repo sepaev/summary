@@ -1,0 +1,17 @@
+<h3 class='about__title'>{{title}}</h3>
+<div lass='profession'>
+  <h4 class='profession__title'>
+    {{prof_1.title}}
+    <span class='profession__company'>{{prof_1.span}}</span>
+  </h4>
+  <span class='about__period'>{{prof_1.period}}<span class='about__divider'>
+      |
+    </span>{{prof_1.country}}</span>
+  <ul class='profession__duties'>
+    {{#each prof_1.duties}}
+      <li class='profession__duties-item'>
+        {{this}}
+      </li>
+    {{/each}}
+  </ul>
+</div>

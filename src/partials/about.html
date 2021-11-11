@@ -1,19 +1,7 @@
 <section class="about">
   <!-- about me main info -->
   <div class="about__container aboutMe__template">
-    <h2 class="about__profession">Full-Stack React/Node.js Developer</h2>
-    <h1 class="about__name">Ievhen Pavlovskyi</h1>
-    <p class="about__description">
-      There were no projects for sale. I devoted a lot of time to self-study. Fixed bugs of some
-      already working sites. Installed and configured several online stores by using CMS. I set up
-      my forum on the local network of the micro-district, practiced on it in PHP, SQL, FTP, the
-      discipline of roles and access rights, etc. More practice in VB programming. For over 10 years
-      I have been using my own MySQL database based MS Access application for my micro trade
-      business. All this time I have been practicing VBA programming, adding functionality and
-      making various changes. In 2015 I've been finished the offline courses "JavaScript" and
-      "Programming in PHP". Then in 2020 I started the Full-Stack Developer online courses (where I
-      still studying).
-    </p>
+    <!-- template place aboutMe.hbs -->
   </div>
 
   <!-- Projects container -->
@@ -98,73 +86,23 @@
   </div>
 
   <!-- Work Experience -->
-  <div class="about__container">
-    <h3 class="about__title">Work Experience</h3>
-    <div lass="profession">
-      <h4 class="profession__title">
-        Private entrepreneur
-        <span class="profession__company">Private individual Pavlovsky I.S.</span>
-      </h4>
-      <span class="about__period"
-        >February 2007 - up to now<span class="about__divider"> | </span>Ukraine</span
-      >
-      <ul class="profession__duties">
-        <li class="profession__duties-item">
-          Recruitment of hired workers, dismissal of employees, filling out a labor book, sending a
-          notification to supervisory authorities
-        </li>
-        <li class="profession__duties-item">
-          Counting accounting, paying taxes, paying salaries, submitting reports
-        </li>
-        <li class="profession__duties-item">
-          Purchase of goods, inventory management, preparation for sale.
-        </li>
-        <li class="profession__duties-item">
-          Business negotiations, meetings, signing contracts, fulfilling the terms of contracts.
-        </li>
-        <li class="profession__duties-item">
-          Finding a place to trade. Opening of retail outlets. Organization of the workspace.
-          Obtaining permits for trade, launching an object, concluding service and security
-          contracts
-        </li>
-      </ul>
-    </div>
-   
+  <div class="about__container workExperience__template">
+    <!-- template place workExperience.hbs -->
+  </div>
 
   <!-- Education -->
-  <div class="about__container">
-    <h3 class="about__title">Education</h3>
-    <!-- Education 1 -->
-    <div class="education">
-      <h4 class="education__university">Kyiv National University of Trade and Economics</h4>
-      <h2 class="education__specialization">Enterprise economy</h2>
-      <span class="about__period"
-        >Septermber 2003 - June 2008<span class="about__divider"> | </span>Ukraine</span
-      >
-    </div>
-    <!-- Education 2 -->
-    <div class="education">
-      <h4 class="education__university">Courses: Training Center 'PERSPECTIVA - XXI STOLITTYA'</h4>
-      <h2 class="education__specialization">Javascript</h2>
-      <span class="about__period"
-        >11 March 2015 - 27 April 2015<span class="about__divider"> | </span>Ukraine</span
-      >
-    </div>
-    <!-- Education 3 -->
-    <div class="education">
-      <h4 class="education__university">Courses: Training Center 'PERSPECTIVA - XXI STOLITTYA</h4>
-      <h2 class="education__specialization">PHP Programing</h2>
-      <span class="about__period"
-        >19 May 2015 - 29 September 2015<span class="about__divider"> | </span>Ukraine</span
-      >
-    </div>
-    <!-- Education 4 -->
-    <div class="education">
-      <h4 class="education__university">Courses: GoIt</h4>
-      <h2 class="education__specialization">FULLSTACK ONLINE</h2>
-      <span class="about__period"
-        >January 2021 - January 2022<span class="about__divider"> | </span>Ukraine</span
-      >
-    </div>
+  <div class="about__container myEducation__template">
+    <!-- template place myEducation.hbs -->
   </div>
+
+  <a class="print hidden-print" href="./downloads/summaryUA.pdf"
+    ><img
+      src="./images/print.png"
+      target="”_blank”"
+      class="print__icon"
+      alt="Print"
+      style="width: 48px"
+  /></a>
+  <a href="./downloads/summaryRU.pdf" style="display: none"></a>
+  <a href="./downloads/summaryEN.pdf" style="display: none"></a>
 </section>

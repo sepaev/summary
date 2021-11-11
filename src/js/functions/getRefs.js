@@ -4,6 +4,9 @@ const getRefs = () => {
     softSkills: document.querySelector('.softSkills__template'),
     myContacts: document.querySelector('.myContacts__template'),
     aboutMe: document.querySelector('.aboutMe__template'),
+    workExperience: document.querySelector('.workExperience__template'),
+    myEducation: document.querySelector('.myEducation__template'),
+    print: document.querySelector('.print'),
   };
 };
 
