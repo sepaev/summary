@@ -6,7 +6,6 @@ $langWidth: calc((100% - 40px) / 3);
     url('../images/one-year-of-react-native-1500x880.jpg') no-repeat center;
   background-size: cover;
   width: 370px;
-  // padding-top: $indent;
   padding-bottom: $indent;
 
   &__photo {
@@ -43,10 +42,9 @@ $langWidth: calc((100% - 40px) / 3);
     position: relative;
     font-size: 20px;
     line-height: $indent;
-    display: block;
+    display: flex;
     margin: 5px;
     padding: 5px;
-    // width: auto;
 
     &.lang {
       width: $langWidth;
@@ -70,6 +68,7 @@ $langWidth: calc((100% - 40px) / 3);
         width: 45px;
       }
     }
+
     &:hover {
       width: 30px;
     }
@@ -82,6 +81,9 @@ $langWidth: calc((100% - 40px) / 3);
     color: #c7c8ca;
     font-weight: 400;
     text-decoration: none;
+    &.social-link {
+      margin: 0 20px;
+    }
   }
 
   &__link-title {

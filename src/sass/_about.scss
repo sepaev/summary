@@ -134,6 +134,27 @@ $green-color: #219261;
     line-height: 24px;
   }
 }
+.languages {
+  &__list {
+    color: $green-color;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 1px;
+  }
+  &__item {
+    display: block;
+    text-align: center;
+  }
+  &__icon {
+    width: 50px;
+    margin: auto;
+    display: block;
+  }
+}
 
 .print {
   position: absolute;

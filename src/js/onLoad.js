@@ -6,12 +6,14 @@ import {
   aboutMeTranslations,
   workExperienceTranslations,
   myEducationTranslations,
+  myLanguagesTranslations,
 } from './translations';
 import softSkillsHbs from '../templates/softSkills.hbs';
 import myContactsHbs from '../templates/myContacts.hbs';
 import aboutMeHbs from '../templates/aboutMe.hbs';
 import workExperienceHbs from '../templates/workExperience.hbs';
 import myEducationHbs from '../templates/myEducation.hbs';
+import myLanguagesHbs from '../templates/myLanguages.hbs';
 
 function onLoad() {
   const currentLang = getLang();
@@ -31,6 +33,8 @@ function onLoad() {
   rewriteInnerHTML(refs.workExperience, workExperienceHbs(workExperienceTranslations[currentLang]));
   //my education
   rewriteInnerHTML(refs.myEducation, myEducationHbs(myEducationTranslations[currentLang]));
+  //my languages
+  rewriteInnerHTML(refs.myLanguages, myLanguagesHbs(myLanguagesTranslations[currentLang]));
 }
 
 export default onLoad;
