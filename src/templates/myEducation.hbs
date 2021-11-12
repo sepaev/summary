@@ -1,11 +1,24 @@
 <h3 class='about__title'>{{title}}</h3>
-{{#each education}}
-  <!-- Education 1 -->
-  <div class='education'>
-    <h4 class='education__university'>{{university}}</h4>
-    <h2 class='education__specialization'>{{specialization}}</h2>
-    <span class='education__period'>{{period}}<span class='about__divider'>
-        |
-      </span>{{place}}</span>
-  </div>
-{{/each}}
+<div class='education'>
+  {{#each education}}
+    <div class='education__container'>
+      <h4 class='education__university'>{{university}}</h4>
+      <h2 class='education__specialization'>{{specialization}}</h2>
+      <p class='education__period'>{{period}}<span class='about__divider'>
+          |
+        </span>{{place}}</p></div>
+  {{/each}}
+</div>
+<h3 class='about__title'>{{titleSecond}}</h3>
+<!-- Education 1 -->
+<div class='education additional'>
+  {{#each additionalEducation}}
+    <div class='education__container'>
+      <h4 class='education__university'>{{university}}</h4>
+      <h2 class='education__specialization'>{{specialization}}</h2>
+      <span class='education__period'>{{period}}<span class='about__divider'>
+          |
+        </span>{{place}}</span>
+    </div>
+  {{/each}}
+</div>

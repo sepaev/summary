@@ -1,5 +1,5 @@
-$indent: 40px;
-$langWidth: calc((100% - 40px) / 3);
+$indent: 35px;
+$langWidth: calc((100% - 35px) / 3);
 
 .aside {
   background: linear-gradient(0deg, rgba(3, 95, 26, 1), rgba(2, 34, 94, 0.92)),
@@ -13,10 +13,8 @@ $langWidth: calc((100% - 40px) / 3);
   }
 
   &__container {
-    margin-left: $indent;
-    margin-top: 60px;
-    margin-right: $indent;
-    // background: #1e2939;
+    padding: $indent;
+    padding-bottom: 0;
     box-sizing: border-box;
   }
 
@@ -25,7 +23,7 @@ $langWidth: calc((100% - 40px) / 3);
     font-size: 42px;
     font-weight: 700;
     color: #ffffff;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
 
   &__list {
@@ -35,19 +33,21 @@ $langWidth: calc((100% - 40px) / 3);
     justify-content: space-around;
     &.lang__list {
       min-height: $indent;
+      margin: auto;
     }
   }
 
   &__item {
     position: relative;
-    font-size: 20px;
-    line-height: $indent;
+    font-size: 19px;
+    // line-height: $indent;
     display: flex;
-    margin: 5px;
-    padding: 5px;
+    margin-bottom: 5px;
+    align-items: flex-start;
 
     &.lang {
       width: $langWidth;
+      justify-content: center;
       &:hover {
         filter: none;
         filter: drop-shadow(1px 1px 8px #39ff14);
@@ -59,14 +59,17 @@ $langWidth: calc((100% - 40px) / 3);
   }
 
   &__item-icon {
-    display: block;
-    margin: auto;
+    padding: 5px;
+
+    &.social-icon {
+      width: 35px;
+      margin-right: 8px;
+      // margin-top: 5px;
+      padding: 0;
+    }
     &.lang-icon {
       pointer-events: none;
-      width: 30px;
-      &:hover {
-        width: 45px;
-      }
+      width: 40px;
     }
 
     &:hover {
@@ -90,6 +93,8 @@ $langWidth: calc((100% - 40px) / 3);
     color: #ffffff;
     font-weight: 700;
     margin-right: 10px;
+    margin-left: 5px;
+    min-height: $indent;
   }
 
   &__text {

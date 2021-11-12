@@ -1,5 +1,6 @@
 const ua = {
   title: 'Освіта',
+  titleSecond: 'Додаткова освіта',
   education: [
     {
       university: 'Київський Національний Торговельно-Економічний Університет',
@@ -7,14 +8,16 @@ const ua = {
       period: 'Вересень 2003 - Червень 2008',
       place: 'Україна, Київ',
     },
+  ],
+  additionalEducation: [
     {
-      university: "Курси: Учбовий центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: "Курси: навч. центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
       specialization: 'Javascript',
       period: 'Березень 2015 - Квітень 2015',
       place: 'Україна, Київ',
     },
     {
-      university: "Курси: Учбовий центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: "Курси: навч. центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
       specialization: 'Програмування на PHP',
       period: 'Травень 2015 - Вересень 2015',
       place: 'Україна, Київ',
@@ -29,6 +32,7 @@ const ua = {
 };
 const ru = {
   title: 'Образование',
+  titleSecond: 'Дополнительное образование',
   education: [
     {
       university: 'Киевский Национальный Торгово-Экономический Университет',
@@ -36,14 +40,16 @@ const ru = {
       period: 'Сентябрь 2003 - Июнь 2008',
       place: 'Украина, Киев',
     },
+  ],
+  additionalEducation: [
     {
-      university: "Курсы: Учебный центр 'ПЕРСПЕКТЫВА - XXI СТОЛИТТЯ'",
+      university: "Курсы: Учебный центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
       specialization: 'Javascript',
       period: 'Март 2015 - Апрель 2015',
       place: 'Украина, Киев',
     },
     {
-      university: "Курсы: Учебный центр 'ПЕРСПЕКТЫВА - XXI СТОЛИТТЯ'",
+      university: "Курсы: Учебный центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
       specialization: 'Программирование на PHP',
       period: 'Май 2015 - Сентябрь 2015',
       place: 'Украина, Киев',
@@ -58,6 +64,7 @@ const ru = {
 };
 const en = {
   title: 'Education',
+  titleSecond: 'Additional education',
   education: [
     {
       university: 'Kyiv National University of Trade and Economics',
@@ -65,14 +72,16 @@ const en = {
       period: 'Septermber 2003 - June 2008',
       place: 'Ukraine, Kyiv',
     },
+  ],
+  additionalEducation: [
     {
-      university: "Courses: Training Center 'PERSPECTIVA - XXI STOLITTYA'",
+      university: "Courses: Training Center 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
       specialization: 'Javascript',
       period: 'March 2015 - April 2015',
       place: 'Ukraine, Kyiv',
     },
     {
-      university: "Courses: Training Center 'PERSPECTIVA - XXI STOLITTYA'",
+      university: "Courses: Training Center 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
       specialization: 'PHP Programing',
       period: 'May 2015 - September 2015',
       place: 'Ukraine, Kyiv',

@@ -10,27 +10,9 @@
       <span class='aside__text'>Agile</span>
     </a>
   </li>
-  <li class='aside__item'>
-    <a class='aside__link' href='https://ru.wikipedia.org/wiki/GTD' target='”_blank”'>
-      <span class='aside__text'>{{gtd}}</span>
-    </a>
-  </li>
-  <li class='aside__item'>
-    <span class='aside__text'>{{logicalThinking}}</span>
-  </li>
-  <li class='aside__item'>
-    <span class='aside__text'>{{teamwork}}</span>
-  </li>
-  <li class='aside__item'>
-    <span class='aside__text'>{{stressTolerance}}</span>
-  </li>
-  <li class='aside__item'>
-    <span class='aside__text'>{{creative}}</span>
-  </li>
-  <li class='aside__item'>
-    <span class='aside__text'>{{selfOrganization}}</span>
-  </li>
-  <li class='aside__item'>
-    <span class='aside__text'>{{problemSolving}}</span>
-  </li>
+  {{#each softSkills}}
+    <li class='aside__item'>
+      <span class='aside__text'>{{this}}</span>
+    </li>
+  {{/each}}
 </ul>

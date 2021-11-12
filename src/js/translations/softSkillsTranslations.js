@@ -1,29 +1,32 @@
 const ua = {
-  gtd: 'Завершую розпочате',
-  logicalThinking: 'Логічне мислення',
-  teamwork: 'Робота в команді',
-  stressTolerance: 'Стресостійкість',
-  creative: 'Креативність',
-  selfOrganization: 'Самоорганізованість',
-  problemSolving: 'Люблю складні завдання',
+  softSkills: [
+    'Завершую розпочате',
+    'Логічне мислення',
+    'Робота в команді',
+    'Стресостійкість',
+    'Креативність',
+    'Люблю складні завдання',
+  ],
 };
 const ru = {
-  gtd: 'Завершаю начатое',
-  logicalThinking: 'Логическое мышление',
-  teamwork: 'Работа в команде',
-  stressTolerance: 'Стрессоустойчивость',
-  creative: 'Креативность',
-  selfOrganization: 'Самоорганизованность',
-  problemSolving: 'Люблю сложные задачи',
+  softSkills: [
+    'Завершаю начатое',
+    'Логическое мышление',
+    'Работа в команде',
+    'Стрессоустойчивость',
+    'Креативность',
+    'Люблю сложные задачи',
+  ],
 };
 const en = {
-  gtd: 'Getting Things Done',
-  logicalThinking: 'Logical thinking',
-  teamwork: 'Teamwork',
-  stressTolerance: 'Stress tolerance',
-  creative: 'Creative',
-  selfOrganization: 'Self organization',
-  problemSolving: 'Problem solving',
+  softSkills: [
+    'Getting Things Done',
+    'Logical thinking',
+    'Teamwork',
+    'Stress tolerance',
+    'Creative',
+    'Problem solving',
+  ],
 };
 
 const softSkillsTranslations = {
