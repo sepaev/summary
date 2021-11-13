@@ -22,7 +22,7 @@ function onLoad() {
   document.title = titleTranslations[currentLang];
   document.documentElement.lang = currentLang;
   //print button
-  refs.print.href = '/downloads/summary' + currentLang.toUpperCase() + '.pdf';
+  refs.print.href = './public/summary' + currentLang.toUpperCase() + '.pdf';
   //my contacts
   rewriteInnerHTML(refs.myContacts, myContactsHbs(myContactsTranslations[currentLang]));
   //soft skills
