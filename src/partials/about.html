@@ -7,80 +7,77 @@
   <!-- Projects container -->
 
   <div class="about__container">
-    <h3 class="about__title">Projects</h3>
+    <h3 class="about__title visually-hidden">Projects</h3>
     <ol class="projects">
-      <li class="projects__item">
-        <a class="projects__link" href="https://sepaev.github.io/goit-markup-hw-08/">
-          <img
-            src="./images/ws.svg"
-            class="projects__item-icon"
-            alt="WebStudio"
-            style="width: 150px"
-          />
+      <li class="projects__item container">
+        <img
+          src="./images/ws.svg"
+          class="projects__item-icon"
+          alt="WebStudio"
+          style="width: 150px"
+        />
+        <a class="projects__link" href="https://sepaev.github.io/web-studio/">
+          <p class="projects__link-text">https://sepaev.github.io/ web-studio/</p>
         </a>
-        <span class="projects__languages">[<span class="projects__tech"> HTML5, CSS3 </span>]</span>
+        <span class="projects__tech"> HTML5, CSS3 </span>
       </li>
-      <li class="projects__item">
+      <li class="projects__item container">
+        <img
+          src="./images/hellen.svg"
+          class="projects__item-icon"
+          alt="HellEN"
+          style="width: 150px"
+        />
         <a class="projects__link" href="https://sepaev.github.io/reacteam-project/">
-          <img
-            src="./images/hellen.svg"
-            class="projects__item-icon"
-            alt="HellEN"
-            style="width: 150px"
-          />
+          <p class="projects__link-text">https://sepaev.github.io/ reacteam-project/</p>
         </a>
-        <span class="projects__languages"
-          >[<span class="projects__tech"> SCSS, HTML5, JavaScript </span>]</span
-        >
+        <span class="projects__tech"> SCSS, HTML5, JavaScript </span>
       </li>
-      <li class="projects__item">
-        <a class="projects__link" href="https://sepaev.github.io/goit-js-hw-13/">
-          <img
-            src="./images/search.svg"
-            class="projects__item-icon"
-            alt="Search"
-            style="width: 24px"
-          />
-          <span class="projects__text"> Search images...</span>
+      <li class="projects__item container">
+        <img
+          src="./images/search.svg"
+          class="projects__item-icon"
+          alt="Search"
+          style="width: 24px"
+        />
+        <span class="projects__text"> Search images...</span>
+        <a class="projects__link" href="https://sepaev.github.io/search-images/">
+          <p class="projects__link-text">https://sepaev.github.io/ search-images/</p>
         </a>
-        <span class="projects__languages"
-          >[<span class="projects__tech"> JavaScript, SCSS, Handlebars, Parcel, REST-API</span
-          >]</span
-        >
+        <span class="projects__tech"> JavaScript, SCSS, Handlebars, Parcel, API</span>
       </li>
-      <li class="projects__item">
+      <li class="projects__item container">
+        <img
+          src="./images/filmoteka1.svg"
+          class="projects__item-icon"
+          alt="filmoteka-icon"
+          style="width: 24px"
+        />
+        <img
+          src="./images/filmoteka2.svg"
+          class="projects__item-icon"
+          alt="filmoteka-text"
+          style="width: 141px"
+        />
         <a class="projects__link" href="https://sepaev.github.io/filmoteka/">
-          <img
-            src="./images/filmoteka1.svg"
-            class="projects__item-icon"
-            alt="filmoteka-icon"
-            style="width: 24px"
-          />
-          <img
-            src="./images/filmoteka2.svg"
-            class="projects__item-icon"
-            alt="filmoteka-text"
-            style="width: 141px"
-          />
+          <p class="projects__link-text">https://sepaev.github.io/ filmoteka/</p>
         </a>
-        <span class="projects__languages"
-          >[<span class="projects__tech"> JavaScript, SCSS, Handlebars, Parcel, REST-API </span
-          >]</span
-        >
+        <span class="projects__tech"> JavaScript, SCSS, Handlebars, Parcel, API </span>
       </li>
-      <li class="projects__item">
+      <li class="projects__item container">
+        <img
+          src="./images/phonebook.png"
+          class="projects__item-icon"
+          alt="Phone"
+          style="width: 24px"
+        />
+        <span class="projects__text">Phonebook</span>
         <a class="projects__link" href="https://goit-react-hw-08-phonebook-by-sepaev.netlify.app/">
-          <img
-            src="./images/phonebook.png"
-            class="projects__item-icon"
-            alt="Phone"
-            style="width: 24px"
-          />
-          <span class="projects__text">Phonebook</span>
+          <p class="projects__link-text">
+            https://goit-react-hw-08-phonebook-by-sepaev.netlify.app/
+          </p>
         </a>
-        <span class="projects__languages"
-          >[<span class="projects__tech"> React, Redux, JSX, Node.js, API-C.R.U.D.</span>]</span
-        >
+        <span class="projects__tech"> React, Redux, JSX, Node.js, API</span>
       </li>
     </ol>
   </div>
@@ -99,7 +96,7 @@
     <!-- template place myEducation.hbs -->
   </div>
 
-  <a class="print hidden-print" href="./downloads/summaryUA.pdf"
+  <a class="print hidden-print" href="./downloads/summaryUA.pdf" target="”_blank”"
     ><img
       src="./images/print.png"
       target="”_blank”"
@@ -107,6 +104,6 @@
       alt="Print"
       style="width: 48px"
   /></a>
-  <a href="./downloads/summaryRU.pdf" style="display: none"></a>
-  <a href="./downloads/summaryEN.pdf" style="display: none"></a>
+  <a href="./downloads/summaryRU.pdf" class="visually-hidden"></a>
+  <a href="./downloads/summaryEN.pdf" class="visually-hidden"></a>
 </section>

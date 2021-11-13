@@ -11,22 +11,22 @@ const ua = {
   ],
   additionalEducation: [
     {
-      university: "Курси: навч. центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ',
       specialization: 'Javascript',
       period: 'Березень 2015 - Квітень 2015',
       place: 'Україна, Київ',
     },
     {
-      university: "Курси: навч. центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ',
       specialization: 'Програмування на PHP',
       period: 'Травень 2015 - Вересень 2015',
       place: 'Україна, Київ',
     },
     {
-      university: 'Курси: GoIt',
-      specialization: 'FULLSTACK ONLINE',
+      university: 'GoIt (ОНЛАЙН)',
+      specialization: 'FULLSTACK',
       period: 'Січень 2021 - Січень 2022',
-      place: 'Україна, Київ(онлайн)',
+      place: 'Україна, Київ',
     },
   ],
 };
@@ -43,22 +43,22 @@ const ru = {
   ],
   additionalEducation: [
     {
-      university: "Курсы: Учебный центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ',
       specialization: 'Javascript',
       period: 'Март 2015 - Апрель 2015',
       place: 'Украина, Киев',
     },
     {
-      university: "Курсы: Учебный центр 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
-      specialization: 'Программирование на PHP',
+      university: 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ',
+      specialization: 'PHP',
       period: 'Май 2015 - Сентябрь 2015',
       place: 'Украина, Киев',
     },
     {
-      university: 'Курсы: GoIt',
-      specialization: 'FULLSTACK ONLINE',
+      university: 'GoIt (ОНЛАЙН)',
+      specialization: 'FULLSTACK',
       period: 'Январь 2021 - Январь 2022',
-      place: 'Украина, Киев(онлайн)',
+      place: 'Украина, Киев',
     },
   ],
 };
@@ -75,22 +75,22 @@ const en = {
   ],
   additionalEducation: [
     {
-      university: "Courses: Training Center 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ',
       specialization: 'Javascript',
       period: 'March 2015 - April 2015',
       place: 'Ukraine, Kyiv',
     },
     {
-      university: "Courses: Training Center 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ'",
+      university: 'ПЕРСПЕКТИВА - XXI СТОЛІТТЯ',
       specialization: 'PHP Programing',
       period: 'May 2015 - September 2015',
       place: 'Ukraine, Kyiv',
     },
     {
-      university: 'Courses: GoIt',
-      specialization: 'FULLSTACK ONLINE',
+      university: 'GoIt (ONLINE)',
+      specialization: 'FULLSTACK',
       period: 'January 2021 - January 2022',
-      place: 'Ukraine, Kyiv(online)',
+      place: 'Ukraine, Kyiv',
     },
   ],
 };
