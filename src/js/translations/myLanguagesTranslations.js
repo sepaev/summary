@@ -7,15 +7,15 @@ const ua = {
   languages: [
     {
       flag: ukrFlag,
-      language: 'Українська',
+      language: 'Українська (Рідна)',
     },
     {
       flag: rusFlag,
-      language: 'Російська',
+      language: 'Російська (Рідна)',
     },
     {
       flag: engFlag,
-      language: 'Англійська',
+      language: 'Англійська (А2)',
     },
   ],
 };
@@ -24,32 +24,32 @@ const ru = {
   languages: [
     {
       flag: ukrFlag,
-      language: 'Украинский',
+      language: 'Украинский (Родной)',
     },
     {
       flag: rusFlag,
-      language: 'Русский',
+      language: 'Русский (Родной)',
     },
     {
       flag: engFlag,
-      language: 'Английский',
+      language: 'Английский (A2)',
     },
   ],
 };
 const en = {
-  title: 'My languages',
+  title: 'Language skills',
   languages: [
     {
       flag: ukrFlag,
-      language: 'Ukrainian',
+      language: 'Ukrainian (Native)',
     },
     {
       flag: rusFlag,
-      language: 'Russian',
+      language: 'Russian (Native)',
     },
     {
       flag: engFlag,
-      language: 'English',
+      language: 'English (A2)',
     },
   ],
 };

@@ -1,6 +1,6 @@
 const ua = {
   softSkills: [
-    'Завершую розпочате',
+    'Завершую розпочату роботу',
     'Логічне мислення',
     'Робота в команді',
     'Стресостійкість',
@@ -10,7 +10,7 @@ const ua = {
 };
 const ru = {
   softSkills: [
-    'Завершаю начатое',
+    'Заканчиваю начатую работу',
     'Логическое мышление',
     'Работа в команде',
     'Стрессоустойчивость',
@@ -20,7 +20,7 @@ const ru = {
 };
 const en = {
   softSkills: [
-    'Getting Things Done',
+    'I am finishing the work I started',
     'Logical thinking',
     'Teamwork',
     'Stress tolerance',

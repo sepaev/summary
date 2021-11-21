@@ -75,11 +75,9 @@ $green-color: #219261;
   display: flex;
   flex-wrap: wrap;
   &__item {
-    // justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: baseline;
     margin: 5px;
     font-weight: 700;
     margin-left: 17px;
@@ -96,10 +94,15 @@ $green-color: #219261;
     line-height: 24px;
     text-decoration: none;
     display: block;
-    border-radius: 5px;
+    border-radius: 25px 0 0 0;
     background-color: #e7eff9;
-    background-image: linear-gradient(315deg, #e7eff9 0%, #cfd6e6 74%);
-    margin: 5px 0;
+    background-image: linear-gradient(-165deg, #e7eff9 0%, silver 74%);
+    margin-bottom: 5px;
+    padding-top: 5px;
+    height: auto;
+    &:hover {
+      filter: drop-shadow(0px 0px 6px gold);
+    }
   }
 
   &__tech {
@@ -107,13 +110,20 @@ $green-color: #219261;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    border-radius: 5px;
+    border-radius: 0 0 25px 0;
     background-color: #fec84e;
-    background-image: linear-gradient(315deg, #fec84e 0%, #ffdea8 74%);
+    background-image: linear-gradient(195deg, gold 0%, #ffdea8 74%);
     width: 100%;
+    height: auto;
   }
   &__text {
     font-size: 22px;
+    &.lo-font {
+      font-size: 16px;
+    }
+    &.weight-font {
+      font-weight: 800;
+    }
   }
   &__languages {
     display: flex;
@@ -200,7 +210,7 @@ $green-color: #219261;
     list-style: none;
     display: flex;
     justify-content: space-around;
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 700;
     line-height: 24px;
     margin-bottom: 1px;
@@ -208,11 +218,16 @@ $green-color: #219261;
   &__item {
     display: block;
     text-align: center;
+    text-decoration: underline;
   }
   &__icon {
     width: 50px;
     margin: auto;
     display: block;
+  }
+  &__text {
+    color: gold;
+    filter: drop-shadow(0px 0px 4px black);
   }
 }
 
@@ -221,4 +236,7 @@ $green-color: #219261;
   top: 15px;
   right: 15px;
   filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+  &:hover {
+    filter: drop-shadow(3px 3px 2px gold);
+  }
 }

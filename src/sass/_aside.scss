@@ -24,6 +24,10 @@ $langWidth: calc((100% - 35px) / 3);
     font-weight: 700;
     color: #ffffff;
     margin-bottom: 20px;
+    // font-size: 72px;
+    background: -webkit-linear-gradient(white, white, grey);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   &__list {
@@ -40,21 +44,37 @@ $langWidth: calc((100% - 35px) / 3);
   &__item {
     position: relative;
     font-size: 19px;
-    // line-height: $indent;
+    // line-height: 25px;
     display: flex;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     align-items: flex-start;
+    &:last-of-type {
+      // margin: 0;
+      padding: 0;
+    }
 
     &.lang {
+      margin-bottom: 0px;
+      padding-bottom: 0px;
       width: $langWidth;
       justify-content: center;
       &:hover {
         filter: none;
-        filter: drop-shadow(1px 1px 8px #39ff14);
+        filter: drop-shadow(1px 1px 8px gold);
       }
     }
     &.skill {
+      padding: 7px;
+      justify-content: space-between;
       text-align: center;
+      border: 1px black solid;
+      border-radius: 20px 0;
+      background: rgb(157, 152, 228);
+      background: linear-gradient(25deg, gold, silver);
+      & > .aside__link > .aside__text {
+        color: black;
+        filter: drop-shadow(0px 0px 2px black);
+      }
     }
   }
 

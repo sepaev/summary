@@ -1,12 +1,13 @@
+<h3 class='about__title'>{{title}}</h3>
 <ul class='languages__list'>
-  <h3 class='about__title'>{{title}}</h3>
   {{#each languages}}
     <li class='languages__item'>
-      <span class='languages__text'><img
+      <span class='languages__text'>
+        {{!-- <img
           src={{this.flag}}
           class='languages__icon'
           alt='lang-flag'
-        />
+        /> --}}
         {{this.language}}</span>
     </li>
   {{/each}}
