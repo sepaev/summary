@@ -13,7 +13,7 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./getLang":"nzrV","./getRefs":"IoJR","./rewriteInnerHTML":"NT0X","./changeLang":"g6xm"}],"ThAk":[function(require,module,exports) {
 module.exports="/summary/public\summaryUA.pdf";
 },{}],"YTmP":[function(require,module,exports) {
-module.exports="/summary/summaryEN.6388b113.pdf";
+module.exports="/summary/summaryEN.47191c0e.pdf";
 },{}],"dRpP":[function(require,module,exports) {
 module.exports="/summary/summaryRU.2b438a37.pdf";
 },{}],"olVX":[function(require,module,exports) {
@@ -67,4 +67,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"./functions":"FPRN"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=r(require("./js/onLoad")),s=r(require("./js/loadListners"));function r(e){return e&&e.__esModule?e:{default:e}}(0,e.default)(),(0,s.default)();
 },{"./sass/main.scss":"clu1","./js/onLoad":"XJBC","./js/loadListners":"JAB6"}]},{},["Focm"], null)
-//# sourceMappingURL=/summary/src.ff88d387.js.map
+//# sourceMappingURL=/summary/src.74dd654e.js.map
