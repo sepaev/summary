@@ -5,3 +5,4 @@ export { default as workExperienceTranslations } from './workExperienceTranslati
 export { default as myEducationTranslations } from './myEducationTranslations';
 export { default as myLanguagesTranslations } from './myLanguagesTranslations';
 export { default as titleTranslations } from './titleTranslations';
+export { default as documentLangTranslations } from './documentLangTranslations';

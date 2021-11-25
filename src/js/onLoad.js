@@ -1,6 +1,7 @@
 import { getLang, getRefs, rewriteInnerHTML } from './functions';
 import {
   titleTranslations,
+  documentLangTranslations,
   softSkillsTranslations,
   myContactsTranslations,
   aboutMeTranslations,
@@ -20,7 +21,7 @@ function onLoad() {
   const refs = getRefs();
   //index.html
   document.title = titleTranslations[currentLang];
-  document.documentElement.lang = currentLang;
+  document.documentElement.lang = documentLangTranslations[currentLang];
   //print button
   refs.print.href = './public/summary' + currentLang.toUpperCase() + '.pdf';
   refs.printHidden[0].href = './public/summaryUA.pdf';
@@ -38,7 +39,6 @@ function onLoad() {
   rewriteInnerHTML(refs.myEducation, myEducationHbs(myEducationTranslations[currentLang]));
   //my languages
   rewriteInnerHTML(refs.myLanguages, myLanguagesHbs(myLanguagesTranslations[currentLang]));
-  console.log(refs.printHidden);
 }
 
 export default onLoad;
