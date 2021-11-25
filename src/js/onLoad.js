@@ -23,6 +23,9 @@ function onLoad() {
   document.documentElement.lang = currentLang;
   //print button
   refs.print.href = './public/summary' + currentLang.toUpperCase() + '.pdf';
+  refs.printHidden[0].href = './public/summaryUA.pdf';
+  refs.printHidden[1].href = './public/summaryEN.pdf';
+  refs.printHidden[2].href = './public/summaryRU.pdf';
   //my contacts
   rewriteInnerHTML(refs.myContacts, myContactsHbs(myContactsTranslations[currentLang]));
   //soft skills
@@ -35,6 +38,7 @@ function onLoad() {
   rewriteInnerHTML(refs.myEducation, myEducationHbs(myEducationTranslations[currentLang]));
   //my languages
   rewriteInnerHTML(refs.myLanguages, myLanguagesHbs(myLanguagesTranslations[currentLang]));
+  console.log(refs.printHidden);
 }
 
 export default onLoad;

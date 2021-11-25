@@ -8,6 +8,7 @@ const getRefs = () => {
     myEducation: document.querySelector('.myEducation__template'),
     myLanguages: document.querySelector('.myLanguages__template'),
     print: document.querySelector('.print'),
+    printHidden: document.querySelectorAll('.hidden-print.visually-hidden'),
   };
 };
 
