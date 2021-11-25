@@ -13,9 +13,9 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{"./getLang":"nzrV","./getRefs":"IoJR","./rewriteInnerHTML":"NT0X","./changeLang":"g6xm"}],"ThAk":[function(require,module,exports) {
 module.exports="/summary/public\summaryUA.pdf";
 },{}],"YTmP":[function(require,module,exports) {
-module.exports="/summary/summaryEN.796459bf.pdf";
+module.exports="/summary/summaryEN.6388b113.pdf";
 },{}],"dRpP":[function(require,module,exports) {
-module.exports="/summary/summaryRU.98cba323.pdf";
+module.exports="/summary/summaryRU.2b438a37.pdf";
 },{}],"olVX":[function(require,module,exports) {
 "use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=void 0;const e={softSkills:["Завершую розпочату роботу","Логічне мислення","Робота в команді","Стресостійкість","Креативність","Люблю складні завдання"]},t={softSkills:["Заканчиваю начатую работу","Логическое мышление","Работа в команде","Стрессоустойчивость","Креативность","Люблю сложные задачи"]},s={softSkills:["I am finishing the work I started","Logical thinking","Teamwork","Stress tolerance","Creative","Problem solving"]},o={ua:e,en:s,ru:t};var r=o;exports.default=r;
 },{}],"cEr1":[function(require,module,exports) {
@@ -67,4 +67,4 @@ var e,t=arguments[3];!function(t,r){"object"==typeof exports&&"object"==typeof m
 },{"./functions":"FPRN"}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var e=r(require("./js/onLoad")),s=r(require("./js/loadListners"));function r(e){return e&&e.__esModule?e:{default:e}}(0,e.default)(),(0,s.default)();
 },{"./sass/main.scss":"clu1","./js/onLoad":"XJBC","./js/loadListners":"JAB6"}]},{},["Focm"], null)
-//# sourceMappingURL=/summary/src.d4f7b1e0.js.map
+//# sourceMappingURL=/summary/src.ff88d387.js.map
