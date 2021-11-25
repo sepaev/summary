@@ -1,4 +1,7 @@
 import { getLang, getRefs, rewriteInnerHTML } from './functions';
+import uaPdf from '../public/summaryUA.pdf';
+import enPdf from '../public/summaryEN.pdf';
+import ruPdf from '../public/summaryRU.pdf';
 import {
   titleTranslations,
   documentLangTranslations,
@@ -16,6 +19,7 @@ import workExperienceHbs from '../templates/workExperience.hbs';
 import myEducationHbs from '../templates/myEducation.hbs';
 import myLanguagesHbs from '../templates/myLanguages.hbs';
 
+console.dir(uaPdf);
 function onLoad() {
   const currentLang = getLang();
   const refs = getRefs();
@@ -24,9 +28,9 @@ function onLoad() {
   document.documentElement.lang = documentLangTranslations[currentLang];
   //print button
   refs.print.href = './public/summary' + currentLang.toUpperCase() + '.pdf';
-  refs.printHidden[0].href = './public/summaryUA.pdf';
-  refs.printHidden[1].href = './public/summaryEN.pdf';
-  refs.printHidden[2].href = './public/summaryRU.pdf';
+  // refs.printHidden[0].href = uaPdf;
+  // refs.printHidden[1].href = './public/summaryEN.pdf';
+  // refs.printHidden[2].href = './public/summaryRU.pdf';
   //my contacts
   rewriteInnerHTML(refs.myContacts, myContactsHbs(myContactsTranslations[currentLang]));
   //soft skills

@@ -15,7 +15,7 @@ const ua = {
     },
     {
       flag: engFlag,
-      language: 'Англійська (А2)',
+      language: 'Англійська (B1)',
     },
   ],
 };
@@ -32,7 +32,7 @@ const ru = {
     },
     {
       flag: engFlag,
-      language: 'Английский (A2)',
+      language: 'Английский (B1)',
     },
   ],
 };
@@ -49,7 +49,7 @@ const en = {
     },
     {
       flag: engFlag,
-      language: 'English (A2)',
+      language: 'English (B1)',
     },
   ],
 };
